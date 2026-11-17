@@ -138,6 +138,17 @@ def widget(items, checked):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <title>Jersey tender opportunities</title>
 <link rel="alternate" type="application/rss+xml" href="tenders.xml" title="Jersey tender opportunities">
+<style>
+@import url("https://use.typekit.net/oes8mgs.css");
+:root {{ font-family: system-ui, sans-serif; color: #1a2630; background: #f6f8fa; }}
+body {{ margin: 0 auto; max-width: 52rem; padding: clamp(1rem, 4vw, 2rem); }}
+h1 {{ margin: 0; font-size: clamp(1.65rem, 5vw, 2.3rem); line-height: 1.1; }}
+p {{ line-height: 1.5; margin: .45rem 0; }} a {{ color: #07546e; }}
+a:focus-visible {{ outline: 3px solid #07546e; outline-offset: 3px; }}
+ul {{ margin: 1.15rem 0; list-style: none; padding: 0; display: grid; gap: .65rem; }}
+li {{ padding: .9rem 1rem; background: white; border: 1px solid #d4e0e6; border-radius: .55rem; }}
+h2 {{ font-size: 1.08rem; margin: 0; line-height: 1.35; }}
+li p, footer {{ font-size: .9rem; }}
 html:has(body:target) {{ background: transparent; }}
 body:target {{
     margin: 0;
@@ -157,19 +168,8 @@ body:target li {{
     background: transparent;
 }}
 body:target a {{ color: #0E69B4; }}
-<style>
-@import url("https://use.typekit.net/oes8mgs.css");
-:root {{ font-family: system-ui, sans-serif; color: #1a2630; background: #f6f8fa; }}
-body {{ margin: 0 auto; max-width: 52rem; padding: clamp(1rem, 4vw, 2rem); }}
-h1 {{ margin: 0; font-size: clamp(1.65rem, 5vw, 2.3rem); line-height: 1.1; }}
-p {{ line-height: 1.5; margin: .45rem 0; }} a {{ color: #07546e; }}
-a:focus-visible {{ outline: 3px solid #07546e; outline-offset: 3px; }}
-ul {{ margin: 1.15rem 0; list-style: none; padding: 0; display: grid; gap: .65rem; }}
-li {{ padding: .9rem 1rem; background: white; border: 1px solid #d4e0e6; border-radius: .55rem; }}
-h2 {{ font-size: 1.08rem; margin: 0; line-height: 1.35; }}
-li p, footer {{ font-size: .9rem; }}
 </style></head>
-<body id="embedded"><main>.
+<body id="embedded"><main><h1>Jersey tender opportunities</h1>
 <p>Check the official notice for the closing time and how to respond.</p>
 {body}</main>
 <footer><p>Source <a href="{escape(SOURCE, quote=True)}" target="_blank" rel="noopener">Channel Islands Tenders</a>
